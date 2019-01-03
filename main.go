@@ -1,8 +1,9 @@
 package main
 
-import "github.com/zhaiqianfeng/golib/demo/flag"
+import "github.com/zhaiqianfeng/golib/demo/config"
 
 func main() {
-	flag.Do()
+	//flag.Do()
+	config.Do()
 
 }
