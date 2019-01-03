@@ -9,7 +9,7 @@ func Do()  {
 	var configFile="config"
 	viper.SetConfigName(configFile)
 
-	viper.AddConfigPath("./")
+	viper.AddConfigPath("./demo/config/")
 	err:=viper.ReadInConfig()
 	if err!=nil{
 		log.Fatalln(err.Error())
